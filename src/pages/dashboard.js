@@ -1,7 +1,9 @@
 import AppLayout from '@/components/Layouts/AppLayout'
 import Head from 'next/head'
+import { useEffect } from 'react'
 
 const Dashboard = () => {
+    useEffect(() => {}, [])
     return (
         <AppLayout
             header={
